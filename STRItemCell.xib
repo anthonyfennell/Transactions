@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="STRItemCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mco-uf-m38" userLabel="itemName">
+                        <rect key="frame" x="6" y="2" width="253" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oed-1w-hcd" userLabel="date">
+                        <rect key="frame" x="6" y="25" width="253" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0K7-5R-dyE" userLabel="valueInDollars">
+                        <rect key="frame" x="267" y="11" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Oed-1w-hcd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="7Z8-aY-REK"/>
+                    <constraint firstItem="mco-uf-m38" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="CWm-6m-Bur"/>
+                    <constraint firstItem="0K7-5R-dyE" firstAttribute="leading" secondItem="Oed-1w-hcd" secondAttribute="trailing" constant="8" id="Q0T-9N-c9Q"/>
+                    <constraint firstAttribute="bottom" secondItem="Oed-1w-hcd" secondAttribute="bottom" id="QeH-va-kgx"/>
+                    <constraint firstItem="mco-uf-m38" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Oed-1w-hcd" secondAttribute="top" constant="-23" id="Snk-OF-lZU"/>
+                    <constraint firstAttribute="centerY" secondItem="0K7-5R-dyE" secondAttribute="centerY" id="Xv4-cL-RZr"/>
+                    <constraint firstAttribute="trailing" secondItem="0K7-5R-dyE" secondAttribute="trailing" constant="11" id="cPI-B0-GDV"/>
+                    <constraint firstItem="0K7-5R-dyE" firstAttribute="leading" secondItem="mco-uf-m38" secondAttribute="trailing" constant="8" id="ee9-yW-fvL"/>
+                    <constraint firstItem="mco-uf-m38" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="nIS-Jw-kHg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dateLabel" destination="Oed-1w-hcd" id="MdB-IG-wRP"/>
+                <outlet property="nameLabel" destination="mco-uf-m38" id="HLe-Qh-bjg"/>
+                <outlet property="valueLabel" destination="0K7-5R-dyE" id="VWq-Tb-5M9"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

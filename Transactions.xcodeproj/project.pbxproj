@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4606002319C3C3490004112C /* STRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4606002119C3C3490004112C /* STRDetailViewController.m */; };
+		4606002419C3C3490004112C /* STRDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4606002219C3C3490004112C /* STRDetailViewController.xib */; };
+		4606002719C5072E0004112C /* STRAssetTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4606002619C5072E0004112C /* STRAssetTypeViewController.m */; };
+		4606002A19C611BD0004112C /* Transactions.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4606002819C611BD0004112C /* Transactions.xcdatamodeld */; };
+		4606003019C615300004112C /* STRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4606002F19C615300004112C /* STRItem.m */; };
 		462DB9C619C2707F0061B890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462DB9C519C2707F0061B890 /* Foundation.framework */; };
 		462DB9C819C2707F0061B890 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462DB9C719C2707F0061B890 /* CoreGraphics.framework */; };
 		462DB9CA19C2707F0061B890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462DB9C919C2707F0061B890 /* UIKit.framework */; };
@@ -19,6 +24,12 @@
 		462DB9E119C2707F0061B890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462DB9C919C2707F0061B890 /* UIKit.framework */; };
 		462DB9E919C2707F0061B890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 462DB9E719C2707F0061B890 /* InfoPlist.strings */; };
 		462DB9EB19C2707F0061B890 /* TransactionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 462DB9EA19C2707F0061B890 /* TransactionsTests.m */; };
+		462DB9FC19C2757E0061B890 /* STRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 462DB9FB19C2757E0061B890 /* STRItemStore.m */; };
+		462DB9FF19C278E70061B890 /* STRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462DB9FE19C278E70061B890 /* STRItemsViewController.m */; };
+		462DBA0319C27C9F0061B890 /* STRItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 462DBA0119C27C9F0061B890 /* STRItemCell.m */; };
+		462DBA0419C27C9F0061B890 /* STRItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 462DBA0219C27C9F0061B890 /* STRItemCell.xib */; };
+		8F3C2E8D19CB5820000398BD /* STRDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F3C2E8C19CB5820000398BD /* STRDateViewController.m */; };
+		8F3C2E9019CBADDD000398BD /* STRDateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F3C2E8F19CBADDD000398BD /* STRDateViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4606002019C3C3490004112C /* STRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRDetailViewController.h; sourceTree = "<group>"; };
+		4606002119C3C3490004112C /* STRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRDetailViewController.m; sourceTree = "<group>"; };
+		4606002219C3C3490004112C /* STRDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STRDetailViewController.xib; sourceTree = "<group>"; };
+		4606002519C5072E0004112C /* STRAssetTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRAssetTypeViewController.h; sourceTree = "<group>"; };
+		4606002619C5072E0004112C /* STRAssetTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRAssetTypeViewController.m; sourceTree = "<group>"; };
+		4606002919C611BD0004112C /* Transactions.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Transactions.xcdatamodel; sourceTree = "<group>"; };
+		4606002E19C615300004112C /* STRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRItem.h; sourceTree = "<group>"; };
+		4606002F19C615300004112C /* STRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRItem.m; sourceTree = "<group>"; };
 		462DB9C219C2707F0061B890 /* Transactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		462DB9C519C2707F0061B890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		462DB9C719C2707F0061B890 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +67,16 @@
 		462DB9E619C2707F0061B890 /* TransactionsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransactionsTests-Info.plist"; sourceTree = "<group>"; };
 		462DB9E819C2707F0061B890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		462DB9EA19C2707F0061B890 /* TransactionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionsTests.m; sourceTree = "<group>"; };
+		462DB9FA19C2757E0061B890 /* STRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRItemStore.h; sourceTree = "<group>"; };
+		462DB9FB19C2757E0061B890 /* STRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRItemStore.m; sourceTree = "<group>"; };
+		462DB9FD19C278E70061B890 /* STRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRItemsViewController.h; sourceTree = "<group>"; };
+		462DB9FE19C278E70061B890 /* STRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRItemsViewController.m; sourceTree = "<group>"; };
+		462DBA0019C27C9F0061B890 /* STRItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRItemCell.h; sourceTree = "<group>"; };
+		462DBA0119C27C9F0061B890 /* STRItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRItemCell.m; sourceTree = "<group>"; };
+		462DBA0219C27C9F0061B890 /* STRItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STRItemCell.xib; sourceTree = "<group>"; };
+		8F3C2E8C19CB5820000398BD /* STRDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRDateViewController.m; sourceTree = "<group>"; };
+		8F3C2E8E19CB58DF000398BD /* STRDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRDateViewController.h; sourceTree = "<group>"; };
+		8F3C2E8F19CBADDD000398BD /* STRDateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STRDateViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +106,24 @@
 		462DB9B919C2707F0061B890 = {
 			isa = PBXGroup;
 			children = (
+				4606002019C3C3490004112C /* STRDetailViewController.h */,
+				4606002119C3C3490004112C /* STRDetailViewController.m */,
+				4606002219C3C3490004112C /* STRDetailViewController.xib */,
+				8F3C2E8E19CB58DF000398BD /* STRDateViewController.h */,
+				8F3C2E8C19CB5820000398BD /* STRDateViewController.m */,
+				8F3C2E8F19CBADDD000398BD /* STRDateViewController.xib */,
+				4606002519C5072E0004112C /* STRAssetTypeViewController.h */,
+				4606002619C5072E0004112C /* STRAssetTypeViewController.m */,
+				462DB9FA19C2757E0061B890 /* STRItemStore.h */,
+				462DB9FB19C2757E0061B890 /* STRItemStore.m */,
+				462DB9FD19C278E70061B890 /* STRItemsViewController.h */,
+				462DB9FE19C278E70061B890 /* STRItemsViewController.m */,
+				462DBA0019C27C9F0061B890 /* STRItemCell.h */,
+				462DBA0119C27C9F0061B890 /* STRItemCell.m */,
+				462DBA0219C27C9F0061B890 /* STRItemCell.xib */,
+				4606002E19C615300004112C /* STRItem.h */,
+				4606002F19C615300004112C /* STRItem.m */,
+				4606002819C611BD0004112C /* Transactions.xcdatamodeld */,
 				462DB9CB19C2707F0061B890 /* Transactions */,
 				462DB9E419C2707F0061B890 /* TransactionsTests */,
 				462DB9C419C2707F0061B890 /* Frameworks */,
@@ -220,8 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462DBA0419C27C9F0061B890 /* STRItemCell.xib in Resources */,
 				462DB9D019C2707F0061B890 /* InfoPlist.strings in Resources */,
+				8F3C2E9019CBADDD000398BD /* STRDateViewController.xib in Resources */,
 				462DB9D819C2707F0061B890 /* Images.xcassets in Resources */,
+				4606002419C3C3490004112C /* STRDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +290,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4606002319C3C3490004112C /* STRDetailViewController.m in Sources */,
+				4606002A19C611BD0004112C /* Transactions.xcdatamodeld in Sources */,
+				4606002719C5072E0004112C /* STRAssetTypeViewController.m in Sources */,
 				462DB9D619C2707F0061B890 /* STRAppDelegate.m in Sources */,
+				462DBA0319C27C9F0061B890 /* STRItemCell.m in Sources */,
+				462DB9FC19C2757E0061B890 /* STRItemStore.m in Sources */,
+				4606003019C615300004112C /* STRItem.m in Sources */,
 				462DB9D219C2707F0061B890 /* main.m in Sources */,
+				8F3C2E8D19CB5820000398BD /* STRDateViewController.m in Sources */,
+				462DB9FF19C278E70061B890 /* STRItemsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Transactions/Transactions-Prefix.pch";
 				INFOPLIST_FILE = "Transactions/Transactions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -374,6 +433,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Transactions/Transactions-Prefix.pch";
 				INFOPLIST_FILE = "Transactions/Transactions-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -438,6 +498,7 @@
 				462DB9F019C2707F0061B890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		462DB9F119C2707F0061B890 /* Build configuration list for PBXNativeTarget "TransactionsTests" */ = {
 			isa = XCConfigurationList;
@@ -446,8 +507,22 @@
 				462DB9F319C2707F0061B890 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4606002819C611BD0004112C /* Transactions.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4606002919C611BD0004112C /* Transactions.xcdatamodel */,
+			);
+			currentVersion = 4606002919C611BD0004112C /* Transactions.xcdatamodel */;
+			path = Transactions.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 462DB9BA19C2707F0061B890 /* Project object */;
 }
